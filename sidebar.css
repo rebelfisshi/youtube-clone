@@ -1,0 +1,47 @@
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    width: 68px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    
+    }
+.youtube-music_section,
+.library_section,       
+.originals_section,
+.subscriptions_section,
+.explore_section,
+.home_section { 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 74px;    
+} 
+.icon_container {
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        margin-top: 40px;
+
+}
+.text_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.text {
+    font-family: 'Roboto', arial;
+    font-size: 10px;
+    margin-top: 5px;
+
+}
